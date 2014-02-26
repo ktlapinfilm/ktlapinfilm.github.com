@@ -62,11 +62,16 @@ ul.data-list li.header{
 
 </style>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-
 <script type="text/javascript">
+$(function(){
+	MailForm();
+});
+
 function MailForm(){
-	window.open('https://api2-by-drazone.appspot.com/mailform/ktlapin','',"width=440, height=500, menubar=no, toolbar=no, scrollbars=yes");
-	return false;
+	$('#contact_open').click(function(){
+		window.open('https://api2-by-drazone.appspot.com/mailform/ktlapin','',"width=440, height=500, menubar=no, toolbar=no, scrollbars=yes");
+		return false;
+	});
 }
 </script>
 
@@ -135,7 +140,7 @@ After 10 years of living in Paris, published first essay book 'Parisienne to Tax
 </p>
 
 
-<p><a href="#" onClick="MailForm()">CONTACT</a></p>
+<p><a href="#" id="contact_open">CONTACT</a></p>
 
 <ul class="list-unstyled data-list">
 
