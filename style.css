@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=EB+Garamond);
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+body{
+    font-family: 'EB Garamond', serif;
+    margin-top: 10px;
+}
+
+#logo{
+    font-size:34px;
+    margin: 10px 0 20px;
+    font-weight: normal;
+}
+
+#logo small{
+    font-size:16px;
+    font-weight: normal;
+}
+
+a {
+	text-decoration: underline;
+	color: #333;
+}
+
+
+#footer{
+	margin-top: 50px;
+}
+
+.section{
+    margin-bottom:0;
+}
+
+ul.data-list li{
+	margin: 0.2em 0 0.2em 1em;
+}
+
+
+ul.data-list li.header{
+	font-size:80%;
+	margin-top: 10px;
+	margin-left:0px;	
+}
